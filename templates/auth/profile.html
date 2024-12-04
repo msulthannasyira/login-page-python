@@ -1,0 +1,35 @@
+{% extends 'home/layout.html' %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+<h2>Profile Page</h2>
+<form method="POST">
+    <table>
+        <tr>
+            <td>Username:</td>
+            <td><input type="text" name="username" value="{{ account['username'] }}" required></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" value="{{ account['email'] }}" required></td>
+        </tr>
+        <tr>
+            <td>Current Password:</td>
+            <td><input type="password" name="current_password" placeholder="Current Password" required></td>
+        </tr>
+        <tr>
+            <td>New Password:</td>
+            <td><input type="password" name="new_password" placeholder="New Password" required></td>
+        </tr>
+        <tr>
+            <td>Confirm New Password:</td>
+            <td><input type="password" name="confirm_password" placeholder="Confirm New Password" required></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Update Profile"></td>
+        </tr>
+    </table>
+</form>
+{% endblock %}
