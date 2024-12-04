@@ -1,0 +1,12 @@
+{% extends 'home/layout.html' %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+<h2>Home Page</h2>
+<p>Welcome back, {{ username }}!</p>
+
+<!-- Tombol yang mengarah ke IP atau web lain -->
+<a href="http://192.168.0.122:5000" class="btn btn-primary">Mulai Belanja!</a>
+
+{% endblock %}
