@@ -1,34 +1,35 @@
 ## Sistem Login dengan Phyton Flask dan MySQL
 
->>  **Saat ingin membuat kontribusi, harap uji kode anda sebelum mengirimkan Pull Request (PR).** 
+Untuk membuat sistem login menggunakan Python Flask dan MySQL dengan menggunakan XAMPP sebagai server lokal, berikut adalah langkah-langkah rinci yang perlu diikuti:
 
-```python 
->>> python main.py
-```
+1. Unduh dan Instal XAMPP
+Unduh XAMPP:
 
-### Yang Harus Dilakukan
+Kunjungi situs resmi XAMPP: XAMPP Downloads.
+Pilih installer XAMPP sesuai dengan sistem operasi yang kamu gunakan (Windows, macOS, atau Linux).
+Setelah mengunduh, jalankan installer dan ikuti langkah-langkah instalasi.
+Instal XAMPP:
 
-1. Unduh dan install Phyton, disini kamu menggunakan Python 3.7.2. Patikan untuk mencentang kotak **Add Python to PATH** pada layar pengaturan instalasi. </p>
-2. Unduh dan install MySQL Community Server and MySQL Workbench.
+Pilih lokasi untuk menginstal XAMPP (misalnya, C:\xampp untuk Windows).
+Setelah instalasi selesai, buka XAMPP Control Panel.
+Menjalankan MySQL dan Apache:
 
-### Operasi Utama yang Ditangani
-1). Desain Formulir — Membuat desain formulir login dan resgitrasi dengan HTML5 and CSS3.<br>
-2). Template — Membuat template Flask dengan HTML an Phyton.<br>
-3). Validasi Dasar — Memvalidasi data formulir yang dikirim ke server (username, password, dan email).<br>
-4). Manajemen Sesi — Menginisialisasi sesi dan menyimpan hasil yang diambil dari database.<br>
-5). Query MySQL — Memilih dan memasukkan data ke/dari tabel database.<br>
-6). Rute — Menentukan URL yang mengarah ke fungsi-fungsi tertentu.<br>
+Di XAMPP Control Panel, klik tombol Start di sebelah MySQL untuk menjalankan server database.
+Klik tombol Start di sebelah Apache untuk menjalankan server web (untuk aplikasi PHP atau lain-lain yang berbasis web, namun tidak diperlukan untuk Flask).
+Akses phpMyAdmin:
+
+Akses phpMyAdmin dengan membuka browser dan mengunjungi: http://localhost/phpmyadmin/.
+phpMyAdmin adalah alat GUI untuk mengelola database MySQL, yang disediakan oleh XAMPP.
 
 ### Persyaratan, Paket yang Digunakan, dan Instalasi
 Unduh dan instal Python (dalam tutorial ini menggunakan Python 3.7.2). Pastikan untuk mencentang kotak **Add Python to PATH** pada layar pengaturan instalasi.
 
- 
 ### Instalasi
-Arahkan ke direktori proyek Anda, dalam kasus ini **Login-System-with-Python-Flask-and-MySQL**. <br>
+Arahkan ke direktori proyek Anda, dalam kasus ini **Login-Page-Python**. <br>
 
 ### 1. Fork Repositori dan Clone ke Mesin Lokal Anda
 ```csharp
-git clone https://github.com/{your-Github-Username }/Login-System-with-Python-Flask-and-MySQL.git
+git clone https://github.com/msulthannasyira/login-page-python.git
 ```
           
 ### 2. Buat Lingkungan Virtual
@@ -39,17 +40,13 @@ Tergantung pada sistem operasi Anda, buat lingkungan virtual untuk menghindari m
 **Windows**
           
 ```csharp
-cd Login-System-with-Python-Flask-and-MySQL
-py -3 -m venv venv
-
+cd https://github.com/msulthannasyira/login-page-python
 ```
           
 **macOS/Linux**
           
 ```csharp
-cd Login-System-with-Python-Flask-and-MySQL
-python3 -m venv venv
-
+cd https://github.com/msulthannasyira/login-page-python
 ```
 
 ### 3. Aktifkan Lingkungan
