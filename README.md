@@ -8,31 +8,33 @@
 
 ### Yang Harus Dilakukan
 
-1. Unduh dan install Phyton, disini kamu menggunakan Python 3.7.2. Patikan untuk mencentang kotak Add Python to PATH pada layar pengaturan instalasi. </p>
-2. Unduh dan install MySQL Community Server and MySQL Workbench.**
+1. Unduh dan install Phyton, disini kamu menggunakan Python 3.7.2. Patikan untuk mencentang kotak **Add Python to PATH** pada layar pengaturan instalasi. </p>
+2. Unduh dan install MySQL Community Server and MySQL Workbench.
 
-1). Form Design — Design a login and registration form with HTML5 and CSS3.<br>
-2). Templates — Create Flask templates with HTML and Python.<br>
-3). Basic Validation — Validating form data that is sent to the server (username, password, and email).<br>
-4). Session Management — Initialize sessions and store retrieved database results.<br>
-5). MySQL Queries — Select and insert records from/in our database table.<br>
-6). Routes — Routing will allow us to point our URL's to our functions.<br>
+### Operasi Utama yang Ditangani
+1). Desain Formulir — Membuat desain formulir login dan resgitrasi dengan HTML5 and CSS3.<br>
+2). Template — Membuat template Flask dengan HTML an Phyton.<br>
+3). Validasi Dasar — Memvalidasi data formulir yang dikirim ke server (username, password, dan email).<br>
+4). Manajemen Sesi — Menginisialisasi sesi dan menyimpan hasil yang diambil dari database.<br>
+5). Query MySQL — Memilih dan memasukkan data ke/dari tabel database.<br>
+6). Rute — Menentukan URL yang mengarah ke fungsi-fungsi tertentu.<br>
 
-### Requirements ,Packages used and Installation
-Download and install Python, for this tutorial I'll be using Python 3.7.2, make sure to check the box Add Python to PATH on the installation setup screen
+### Persyaratan, Paket yang Digunakan, dan Instalasi
+Unduh dan instal Python (dalam tutorial ini menggunakan Python 3.7.2). Pastikan untuk mencentang kotak **Add Python to PATH** pada layar pengaturan instalasi.
+
  
-### Installation
-Navigate to your current project directory for this case it will be **Login-System-with-Python-Flask-and-MySQL**. <br>
+### Instalasi
+Arahkan ke direktori proyek Anda, dalam kasus ini **Login-System-with-Python-Flask-and-MySQL**. <br>
 
-### 1 .Fork the repository and Clone it into your local machine
+### 1. Fork Repositori dan Clone ke Mesin Lokal Anda
 ```csharp
 git clone https://github.com/{your-Github-Username }/Login-System-with-Python-Flask-and-MySQL.git
 ```
           
-### 2 .Create an environment
-> Check to make sure you are in the same directory where you did the git clone,if not navigate to that specific directory.
+### 2. Buat Lingkungan Virtual
+> Pastikan Anda berada di direktori yang sama di mana Anda melakukan git clone. Jika tidak, navigasikan ke direktori tersebut.
 
-Depending on your operating system,make a virtual environment to avoid messing with your machine's primary dependencies
+Tergantung pada sistem operasi Anda, buat lingkungan virtual untuk menghindari mengubah dependensi utama mesin Anda.
           
 **Windows**
           
@@ -50,7 +52,7 @@ python3 -m venv venv
 
 ```
 
-### 3 .Activate the environment
+### 3. Aktifkan Lingkungan
           
 **Windows** 
 
@@ -59,19 +61,19 @@ python3 -m venv venv
 **macOS/Linux**
 
 ```. venv/bin/activate```
-or
+atau
 ```source venv/bin/activate```
 
-### 4 .Install the requirements
+### 4. Install Persyaratan
 
-Applies for windows/macOS/Linux
+Berlaku untuk Windows/macOS/Linux
 
 ```csharp
 pip install -r requirements.txt
 ```
 
 
-### 6. Create the database and table 
+### 5. Buat Basis Data dan Tabel 
 
 ```sql
 -- Create the  database named "loginapp"
@@ -91,24 +93,24 @@ CREATE TABLE accounts (
 ); 
 ```
 
-### 6. Run the application 
+### 6. Jalankan Aplikasi
 
-**For linux and macOS**
-Make the run file executable by running the code
+**Untuk linux dan macOS**
+Jadikan file run dapat dieksekusi dengan kode berikut:
 
 ```chmod 777 run```
 
-Then start the application by executing the run file
+Kemudian mulai aplikasi dengan menjalankan file run:
 
 ```./run```
 
-**On windows**
+**Pada Windows**
 ```
 set FLASK_APP=main
 flask run
 
 ```
-### Application Flow. 
+### Alur Aplikasi. 
 
 **Register Page:**
 
