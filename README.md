@@ -8,7 +8,9 @@ Untuk membuat sistem login menggunakan Python Flask dan MySQL dengan XAMPP sebag
 
 ### 1. Unduh dan Instal XAMPP
 
-Kunjungi situs resmi XAMPP Downloads. Pilih installer XAMPP sesuai dengan sistem operasi Windows dan Install XAMPP. Pilih lokasi untuk menginstal XAMPP (misalnya, `C:\xampp`). Setelah instalasi selesai, buka XAMPP Control Panel. Di XAMPP Control Panel, klik tombol Start di sebelah MySQL untuk menjalankan server database. Klik tombol Start di sebelah Apache untuk menjalankan server web (meskipun ini tidak diperlukan untuk Flask, tetap perlu untuk mengelola phpMyAdmin). Akses phpMyAdmin dengan membuka browser dan mengunjungi: `http://localhost/phpmyadmin/`. phpMyAdmin adalah alat GUI untuk mengelola database MySQL yang disediakan oleh XAMPP.
+Kunjungi situs resmi XAMPP Downloads. Pilih installer XAMPP sesuai dengan sistem operasi Windows dan Install XAMPP. Pilih lokasi untuk menginstal XAMPP (misalnya, `C:\xampp`). Setelah instalasi selesai, buka XAMPP Control Panel. Di XAMPP Control Panel, klik tombol Start di sebelah MySQL untuk menjalankan server database. 
+
+Klik tombol Start di sebelah Apache untuk menjalankan server web (meskipun ini tidak diperlukan untuk Flask, tetap perlu untuk mengelola phpMyAdmin). Akses phpMyAdmin dengan membuka browser dan mengunjungi: `http://localhost/phpmyadmin/`. phpMyAdmin adalah alat GUI untuk mengelola database MySQL yang disediakan oleh XAMPP.
 
 ### 2. Instalasi Python
 Unduh dan instal Python 3.7.2 atau versi terbaru dari python.org.
