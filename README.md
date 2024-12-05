@@ -3,7 +3,7 @@
 >>  **Saat ingin membuat kontribusi, harap uji kode anda sebelum mengirimkan Pull Request (PR).** 
 
 ```python 
->>> python unit_test.py
+>>> python main.py
 ```
 
 ### Yang Harus Dilakukan
