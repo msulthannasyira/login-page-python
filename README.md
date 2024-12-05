@@ -6,13 +6,10 @@
 >>> python unit_test.py
 ```
 
-### Yang Harus Dilakukan (Minimum)
+### Yang Harus Dilakukan
 
 1. Unduh dan install Phyton, disini kamu menggunakan Python 3.7.2. Patikan untuk mencentang kotak Add Python to PATH pada layar pengaturan instalasi. </p>
-Download and install MySQL Community Server and MySQL Workbench, you can skip this step if you already have a MySQL server set up. </p>
-
-
-**Major operations handled**
+2. Unduh dan install MySQL Community Server and MySQL Workbench.**
 
 1). Form Design — Design a login and registration form with HTML5 and CSS3.<br>
 2). Templates — Create Flask templates with HTML and Python.<br>
